@@ -1,0 +1,13 @@
+description: "Document query"
+
+prompts:
+  - "Write a response to:\n\n{{query}}\n\nUse only these documents:\n\n{{context}}"
+
+providers:
+  - id: openai:chat:gpt-4o-mini
+  - id: openai:chat:gpt-4.1-nano
+
+tests:
+  - vars:
+      query: "Where is the warning triangle?"
+      context: file://context.js

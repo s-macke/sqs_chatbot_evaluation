@@ -10,7 +10,7 @@ npx promptfoo@latest eval -c language.yaml -o result.html
 or
 
 ```
-npx promptfoo@latest eval -c config.yaml -o result.html
+npx promptfoo@latest eval -c rag.yaml -o result.html
 ```
 
 Afterwards, you can view the results by running `npx promptfoo@latest view`
