@@ -8,6 +8,8 @@ providers:
   - id: openai:chat:gpt-4.1-nano
 
 defaultTest:
+  options:
+    provider: openai:chat:gpt-4o
   assert:
     - type: llm-rubric
       value: must be in German
